@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Login_page</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <section id="header">
+    <a href="#"><img src="./img/logo.png" class="logo" alt="logo"></a>
+
+    <div>
+      <ul id="navbar">
+        <li><a class="active" href="index.html">Home</a></li>
+        <li><a href="shop.html">Shop</a></li>
+        <li><a href="blog.html">Blog</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
+        <a href="" id="close"><i class="far fa-times"></i></a>
+      </ul>
+    </div>
+    <div id="mobile">
+      <i class="far fa-shopping-bag"></i>
+      <i id="bar" class="fas fa-outdent"></i>
+    </div>
+  </section>
+
+  <div class="container">
+
+    <h2 class="login-title">Log in</h2>
+
+    <form class="login-form">
+
+      <div>
+        <label for="name">Name </label>
+        <input id="name" type="text" placeholder="Eren Buruk" name="name" required />
+      </div>
+
+      <div>
+        <label for="email">Email </label>
+        <input id="email" type="email" placeholder="me@example.com" name="email" required />
+      </div>
+
+      <div>
+        <label for="password">Password </label>
+        <input id="password" type="password" placeholder="password" name="password" required />
+      </div>
+
+      <button class="btn btn--form" type="submit" value="Log in">
+        Log in
+      </button>
+    </form>
+  </div>
+  <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
